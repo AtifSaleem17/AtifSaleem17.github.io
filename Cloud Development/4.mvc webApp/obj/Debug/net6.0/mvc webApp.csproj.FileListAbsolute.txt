@@ -1,0 +1,28 @@
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\appsettings.Development.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\appsettings.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.staticwebassets.runtime.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.exe
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.deps.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.runtimeconfig.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.dll
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\mvc webApp.pdb
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.csproj.AssemblyReference.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.AssemblyInfoInputs.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.AssemblyInfo.cs
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.csproj.CoreCompileInputs.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.MvcApplicationPartsAssemblyInfo.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.RazorAssemblyInfo.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.RazorAssemblyInfo.cs
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\scopedcss\bundle\mvc webApp.styles.css
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\scopedcss\projectbundle\mvc webApp.bundle.scp.css
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.dll
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\refint\mvc webApp.dll
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.pdb
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.genruntimeconfig.cache
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\ref\mvc webApp.dll
+D:\sem1 assessments\cloud development\source code\mvc webApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\sem1 assessments\cloud development\source code\mvc webApp\obj\Debug\net6.0\mvc webApp.csproj.CopyComplete

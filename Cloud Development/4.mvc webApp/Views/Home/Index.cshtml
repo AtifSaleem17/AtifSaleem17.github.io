@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid  py-3 mt-3 bg-info shadow text-dark text-center">
+    <h1 class="display-4 ">Home Monitoring System</h1>      
+    <p>Simulated Device Console App Sensors Data</p>
+</div>
+
+<div class="container-fluid mt-5">
+<div class="d-flex flex-wrap">
+    <div class="flex-fill">
+        <h5 class="text-center text-dark">Energy Sensor</h5>
+        <p class="text-center text-dark border border-danger"><span class="text-danger">Alert :</span>&nbspVoltage is greater than 226</p>
+            <table class="table table-bordered table-hover">
+        <thead class="bg-secondary">
+            <tr class="text-light">
+                <th>Sensor ID</th>
+                <th>Amperes</th>
+                <th>Voltages</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in @ViewBag.energySensorData)
+            {
+                @if (@data["voltages"] > 226)
+                {
+                    <tr class="bg-danger text-light">
+                    <td>@data["sensorId"]</td>
+                    <td>@data["amperes"]</td>
+                    <td>@data["voltages"]</td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                    <td>@data["sensorId"]</td>
+                    <td>@data["amperes"]</td>
+                    <td>@data["voltages"]</td>
+                    </tr>
+                }
+            }                   
+        </tbody>
+    </table>
+    </div>
+    <div class="mx-2"></div>
+
+    <div class="flex-fill">
+        <h5 class="text-center text-dark">Gas Sensor</h5>
+        <p class="text-center text-dark border border-danger"><span class="text-danger">Alert :</span>&nbspGas concentration is greater than 24</p>
+            <table class="table table-bordered table-hover flex-fill">
+        <thead class="bg-secondary">
+            <tr class="text-light">
+                <th>Sensor ID</th>
+                <th>Gas Type</th>
+                <th>Gas Concentration</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in @ViewBag.gasSensorData)
+            {
+                @if(@data["gasConcentration"] > 24)
+                {
+                    <tr class="bg-danger text-light">
+                    <td>@data["sensorId"]</td>
+                    <td>@data["gasType"]</td>
+                    <td>@data["gasConcentration"]</td>
+                    </tr>
+                }
+                else{
+                    <tr>
+                    <td>@data["sensorId"]</td>
+                    <td>@data["gasType"]</td>
+                    <td>@data["gasConcentration"]</td>
+                    </tr>
+                }
+            
+            }
+        </tbody>
+
+    </table>
+    </div>
+</div>
+</div>
+

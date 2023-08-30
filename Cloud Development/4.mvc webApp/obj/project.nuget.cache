@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z23DQev8MYrLunu5kg2UuMQ1XWocCgFrTkYmc1ySHOM7SQkx5VDCrCMFnWs5TqPZAPHQOyPGSa498szmpsTARQ==",
+  "success": true,
+  "projectFilePath": "D:\\sem1 assessments\\cloud development\\source code\\4.mvc webApp\\mvc webApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atifs\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

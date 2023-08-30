@@ -1,0 +1,8 @@
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\mvc webApp.exe
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\appsettings.Development.json
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\appsettings.json
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\mvc webApp.dll
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\mvc webApp.deps.json
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\mvc webApp.runtimeconfig.json
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\mvc webApp.pdb
+D:\sem1 assessments\cloud development\source code\4.mvc webApp\bin\Release\net6.0\publish\Newtonsoft.Json.dll
