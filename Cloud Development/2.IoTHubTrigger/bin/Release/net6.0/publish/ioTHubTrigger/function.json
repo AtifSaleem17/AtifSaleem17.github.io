@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.0.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "connection": "IoTHubConnection",
+      "eventHubName": "messages/events",
+      "name": "message"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/IoTHubTrigger.dll",
+  "entryPoint": "iotHub_home.monitoring.ioTHubTrigger.Run"
+}
