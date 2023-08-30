@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>globo home</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon1.png">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9ed5497c3b.js" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" type="text/css" href="styling.css">
+   
+</head>
+<body>
+
+<!--preloader-->
+
+<div class="preloader"></div>
+
+<header class="container-fluid   mt-3 px-0">
+                                <!-- globotrax-->
+
+	<div class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap px-3 pt-3 pb-md-4 ">
+    	
+    	<div class="d-flex flex-column align-items-center align-items-md-start">
+			<a href="index.php" class="text-decoration-none">
+			    <h3 class="display-4 text-capitalize font-weight-bold text-dark">globotra
+			  <span class="text-danger ml-n3 text-lowercase">x</span>
+		    </h3>
+			</a>
+		    <div class="text-info text-capitalize mt-n2 pl-1">securing and recovering your important items</div>
+		</div>
+
+		<div class="d-flex flex-column align-items-md-end align-items-center">
+		    
+		    				                               <!-- buttons-->
+
+
+
+			<div class="btn-group mb-md-2 mb-1 mt-md-0 mt-3">
+
+
+				<a href="login.html" class="text-decoration-none mr-1">
+			     <button class="btn btn-outline-info text-capitalize ">Login</button>
+		        </a>
+		        <a href="signup.html" class="text-decoration-none">
+			      <button class="btn btn-outline-info text-capitalize ">Sign Up</button>
+		         </a>
+
+				
+
+			</div>
+
+			<div class="form-group  mt-1 mt-md-0 mb-md-n2 ">
+
+
+		                               <!-- select country-->
+				
+				<div class="m-t-20">
+					
+                                <form method="post">
+                                <select class="form-control" name="country">
+                                	<option  class="text-capitalize font-weight-bold">Select Country</option>
+									<option class="text-capitalize">pakistan</option>
+					                <option class="text-capitalize">india</option>
+					                <option class="text-capitalize">USA</option>
+					                <option class="text-capitalize">england</option>
+					                <option class="text-capitalize">france</option>
+									<option class="text-capitalize">italy</option>
+		
+                                        </select>
+                                        </form>
+                            </div>
+			</div>
+		</div>
+	</div>
+   
+	               
+
+</header>
+
+<!--nav-->
+<nav class="shadow d-flex sticky-top navbar navbar-expand-md bg-info navbar-light" >
+	
+	<button class="navbar-toggler order-1 btn-outline-light" data-toggle="collapse" data-target="#navi">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse order-3 order-md-2 mt-2 mt-md-0 justify-content-center" id="navi">
+		<ul class="navbar-nav nav-tabs border-bottom-0" >
+
+		    <li class="nav-item text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="globoHome.html" class="nav-link active text-capitalize font-weight-bold">home</a>
+		    </li>
+		
+		    <li class="nav-item  text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="globosolution.html" class=" nav-link text-capitalize  font-weight-bold">solutions</a>
+		    </li>
+		
+		    <li class=" nav-item text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="ourcompany.html" class="nav-link text-capitalize font-weight-bold">our company</a>
+		    </li>
+	    </ul>
+	</div>
+
+	 <!-- basket-->
+	                
+
+	                	 <div class="order-2 order-md-3  dropdown dropleft">
+	                 	
+	                 	<button class="basket-icon btn btn-outline-light" data-toggle="dropdown"><i class="fas fa-shopping-bag"
+	 		 	    style="font-size: 30px;"></i><span class="badge badge-warning border-cicle mt-2">0</span></button>
+	                 	
+	                 	<div class="dropdown-menu shadow border border-info">
+
+	                 		<div class="alert alert-info alert-dismissible">
+	                 			
+	                 			<button class="close " data-dismiss="alert">&times;</button>
+
+	                 			<div class="d-flex flex-wrap justify-content-center align-items-center">
+	                 				
+	                 				<img class="img-fluid h-25 w-25" src="images/product.png">
+	                 				
+	                 				<p class="text-info text-capitalize  mb-0">
+	                 					<strong class="text-dark">text item</strong> $30 </p>
+	                 			</div>
+	                 		</div>
+
+	                 		<div class="dropdown-divider"></div>
+
+	                 		<div class="dropdown-item d-flex justify-content-between">
+	                 			<h5 class="text-uppercase font-weight-bold mr-5" style="color: #333333">subtotal:</h5>
+	                 			<h5 class="text-uppercase ml-5" style="color: #333333">$0</h5>
+	                 		</div>
+
+	                 		<div class="dropdown-divider"></div>
+	                 		
+	                 		<div class="dropdown-item text-center">
+	                 			
+	                 			<a href="cart.html" class="text-decoration-none ">
+	                 				<button class="w-100 py-2 btn btn-outline-info text-capitalize">view cart
+	                 				</button>
+	                 			</a>
+	                 		</div>
+
+	                 		<div class="dropdown-item text-center">
+	                 			
+	                 			<a href="#" class="text-decoration-none">
+	                 				<button class="w-100 py-2 btn btn-outline-info text-capitalize">checkout
+	                 				</button>
+	                 			</a>
+	                 		</div>
+
+	                 	</div>
+	                 </div>
+</nav>
+
+<!--slider-->
+      
+<div id="slider" class="carousel slide shadow"  data-ride="carousel" >
+    <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+            <img class="img-fluid w-100" src="images/slider1.jpg">
+        </div>
+         
+        <div class="carousel-item">
+            <img class="img-fluid  w-100" src="images/slider2.jpg">
+        </div>
+         
+        <div class="carousel-item">
+            <img class="img-fluid  w-100" src="images/slider3.jpg">
+        </div>
+        
+    </div>
+    
+   
+    
+</div>
+
+
+    <div class="mt-5"><h4 class="text-capitalize text-info font-weight-light 
+    	text-center">commonly lost items</h4>
+    </div>
+
+                           <!--recovery designed-->
+
+<div class="container" style=" ">
+
+	
+		<h2 class="text-dark text-capitalize display-4 text-center mt-5 ">recovery designed for you
+		</h2>
+		<hr  class="border-info"  width="380px">
+
+		<div class="d-flex justify-content-center mt-5" style="text-align: center"><p class=" text-justify">Each year we lost more than 20 million keys, more than 600,000 iPads are left unintentionally on airplanes <br>and around 3.1 million smart phones are lost. that being said, our tracker is designed to find each of these<br> items <span class="font-weight-bold text-info">DEAD</span> or <span class="font-weight-bold text-info">ALIVE</span> and return them to you.</p></div>
+</div>
+<div class="container mt-5">
+  
+  <div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale pb-2 d-flex flex-column justify-content-end align-items-center" style="background: url(images/design1.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+			
+			<h4 class="text-capitalize text-info ">website protection</h4>
+			<p class="d-block text-justify mt-1">Automatically protect your<br>website and its visitors with<br>solutions that find, fix and<br>block threats.</p>
+			<a href="#" class="text-danger font-weight-bold">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2 d-flex flex-column justify-content-end align-items-center" style="background: url(images/design2.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info">PCI Compliance</h4>
+			<p class="d-block text-justify mt-1">Reduce time spend on PCI<br> data with eveytransaction.<br>compliance and protect client<br>credit card information today.</p>
+			<a href="#" class="text-danger font-weight-bold">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2  d-flex flex-column justify-content-end align-items-center" style="background: url(images/design3.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info ">VPN</h4>
+			<p class="d-block text-justify mt-1">Allow your employees to<br>access and use the internet<br>without risk to your business.</p>
+			<a href="#" class="text-danger font-weight-bold mt-4">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2  d-flex flex-column justify-content-end align-items-center" style="background: url(images/design4.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info ml-4">Hosting Security</h4>
+			<p class="d-block text-justify mt-1">Protect your end-users while<br>improving satisfaction and<br>driving additional revenue.</p>
+			<a href="#" class="text-danger font-weight-bold mt-4">learn more</a>
+	     </div>
+	     
+	</div>
+	<div class="d-flex justify-content-center mt-5">
+		<a href="globosolution.html" class="text-decoration-none">
+			<button class="btn btn-outline-info text-capitalize shadow">start securing my items now</button>
+		</a>
+	</div>
+</div>
+
+                               <!--picture area-->
+<!--
+<div class="container"style="margin-top: 90px">
+    <div class="d-flex justify-content-center justify-content-xl-between flex-wrap">
+    	<div class="mb-5 mb-xl-0">
+    		<h1 class="display-4 text-capitalize text-dark pt-lg-5" style="text-align: center">
+    			the fastest way to recover <br>  lost items ever.<br><span class=" text-info">guaranteed.!</span> </h1>
+    	</div>
+    <div style="width: 300px;height: 365px;">	
+
+    	<div  class="scale mt-3 mt-xl-0" style="background: url(images/girl.png); background-size:cover;background-repeat: no-repeat; width: 100%; height: 100%; ">	
+    	</div>
+    	<hr class="border-info mt-2"  width="90%">
+    	<hr class="border-info mt-n2"  width="80%">
+    </div>	
+    </div>
+    <div class="mt-5"><h4 class="text-capitalize text-info font-weight-light 
+    	text-center">commonly lost items</h4>
+    </div>
+</div>
+
+                           recovery designed
+
+<div class="container" style="margin-top:120px; ">
+
+	
+		<h2 class="text-dark text-capitalize display-4 text-center mt-5 ">recovery designed for you
+		</h2>
+		<hr  class="border-info"  width="380px">
+
+		<div class="d-flex justify-content-center mt-5" style="text-align: center"><p class=" text-justify">Each year we lost more than 20 million keys, more than 600,000 iPads are left unintentionally on airplanes <br>and around 3.1 million smart phones are lost. that being said, our tracker is designed to find each of these<br> items <span class="font-weight-bold text-info">DEAD</span> or <span class="font-weight-bold text-info">ALIVE</span> and return them to you.</p></div>
+</div>
+
+<div class="container d-flex flex-column align-items-center">
+	                     
+	                    
+
+	<div class="container mt-5">
+	<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale pb-2 d-flex flex-column justify-content-end align-items-center" style="background: url(images/g1.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+			
+			<h4 class="text-capitalize text-info ">website protection</h4>
+			<p class="d-block text-justify mt-1">Automatically protect your<br>website and its visitors with<br>solutions that find, fix and<br>block threats.</p>
+			<a href="#" class="text-danger font-weight-bold">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2 d-flex flex-column justify-content-end align-items-center" style="background: url(images/g2.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info">PCI Compliance</h4>
+			<p class="d-block text-justify mt-1">Reduce time spend on PCI<br> data with eveytransaction.<br>compliance and protect client<br>credit card information today.</p>
+			<a href="#" class="text-danger font-weight-bold">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2  d-flex flex-column justify-content-end align-items-center" style="background: url(images/g3.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info ">VPN</h4>
+			<p class="d-block text-justify mt-1">Allow your employees to<br>access and use the internet<br>without risk to your business.</p>
+			<a href="#" class="text-danger font-weight-bold mt-4">learn more</a>
+	     </div>
+
+	     <div class="scale pb-2  d-flex flex-column justify-content-end align-items-center" style="background: url(images/g4.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 308px; " >
+
+	     	<h4 class="text-capitalize text-info ml-4">Hosting Security</h4>
+			<p class="d-block text-justify mt-1">Protect your end-users while<br>improving satisfaction and<br>driving additional revenue.</p>
+			<a href="#" class="text-danger font-weight-bold mt-4">learn more</a>
+	     </div>
+	     
+	</div>
+
+</div>
+
+</div>
+-->
+
+<!--
+<div class="container mt-5">
+	<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale" style="background: url(images/mobile.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/tab.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/keys.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/laptop.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	</div>
+	<div class="d-flex justify-content-center mt-5">
+		<a href="globosolution.html" class="text-decoration-none">
+			<button class="btn btn-outline-info text-capitalize shadow">start securing my items now</button>
+		</a>
+	</div>
+</div>-->
+                         <!-- how it works-->
+
+<div class="container" style="margin-top: 120px">
+	
+	<h2 class="text-dark display-4 text-capitalize text-center mt-5 ">how it works
+		</h2>
+	
+		<hr  class="border-info"  width="380px">
+
+		<div >
+			<img class="mt-5 img-fluid mx-auto d-block" src="images/cycle.png">
+		</div>
+		
+		<div class="d-flex justify-content-center mt-5">
+		
+		  <a href="ourcompany.html" class="text-decoration-none">
+			 <button class="btn btn-outline-info text-capitalize shadow">get started</button>
+		  </a>
+	</div>
+</div>
+                 <!-- globotrax methods-->
+
+<div class="container" style="margin-top: 120px">
+	<h2 class="text-dark display-4 text-capitalize text-center mt-5 ">
+		globotra<span class="text-danger  text-lowercase">x</span> method include
+		</h2>
+		<hr  class="border-info"  width="380px">
+</div>
+
+<div class="container mt-5">
+	<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale" style="background: url(images/search.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/protection.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/headset.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	     <div class="scale" style="background: url(images/rocket.png); background-size:cover;background-repeat: no-repeat; width: 250px; height: 305px; " >
+	     </div>
+	</div>
+	<div class="d-flex justify-content-center mt-5">
+		<a href="ourcompany.html" class="text-decoration-none">
+			<button class="btn btn-outline-info text-capitalize shadow">start securing my items now</button>
+		</a>
+	</div>
+</div>
+                       <!-- globotrax benefits-->
+
+<div class="container" style="margin-top: 120px">
+	<h2 class="text-dark display-4 text-capitalize text-center mt-5 ">
+		globotra<span class="text-danger  text-lowercase">x</span> benefits
+		</h2>
+		<hr  class="border-info"  width="380px">
+</div>
+
+<div class="container d-flex flex-column align-items-center">
+	                     
+	                     <!-- benefits row1-->
+
+	<div class="container mt-5">
+	<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale d-flex flex-column justify-content-center align-items-center" style="background: url(images/umbrella.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+			
+			<h4 class="text-capitalize text-info ">peace of mind</h4>
+			<p class="d-block text-justify mt-2">We are there to protect<br>your items and return<br>them to you when<br>needed.</p>
+	     </div>
+
+	     <div class="scale  d-flex flex-column justify-content-center align-items-center" style="background: url(images/diamond.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+
+	     	<h4 class="text-capitalize text-danger ">keep customer<br>data safe</h4>
+			<p class="d-block text-justify mt-2  mb-n5 ml-4">Protect your visitors financial<br> data with eveytransaction.<br>Today, 65% of consumers who<br>have had data compromised<br>online won't return to the site<br>where their info was stolen.</p>
+	     </div>
+
+	     <div class="scale  d-flex flex-column justify-content-center align-items-center" style="background: url(images/graph.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+
+	     	<h4 class="text-capitalize text-info ml-4">maintain compliance<br>with ease</h4>
+			<p class="d-block text-justify mt-2  mb-n5 ml-4">Scan your site for vulnerabilities<br>and stay compliant. An initial<br>and quarterly PCI compliance<br>scan may be required to<br>maintain standard compliance.</p>
+	     </div>
+	     
+	</div>
+
+</div>
+           <!-- benefits row2-->
+<div class="container ">
+	<div class="d-flex flex-wrap justify-content-center justify-content-xl-between">
+		<div class="scale  d-flex flex-column justify-content-center align-items-center" style="background: url(images/rocket2.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+			<h4 class="text-capitalize text-danger ">custom fix-it<br>plan</h4>
+			<p class="d-block text-justify mt-2  mb-n5 ">This plan comes with<br>policy and procedure<br>templates, so you can<br>reduce your legal and<br>financial risks.</p>
+	     </div>
+
+	     <div class="scale  d-flex flex-column justify-content-center align-items-center" style="background: url(images/student.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+	     	<h4 class="text-capitalize text-danger ">avoid fees fines</h4>
+			<p class="d-block text-justify mt-2  mb-n5 ml-4">Avoid hefty fines by becoming<br>PCI complaint.THose who fail<br>to meet PCI DSS requirement<br>could be fined $100,000 per<br>month until compliance<br>standards are met.</p>
+	     </div>
+
+	     <div class="scale  d-flex flex-column justify-content-center align-items-center" style="background: url(images/magic.png); background-size:cover;background-repeat: no-repeat; width: 300px; height: 296px; " >
+	     	<h4 class="text-capitalize text-danger ">guides and tips</h4>
+			<p class="d-block text-justify mt-2  mb-n5 ml-4">Throughout your application<br>process our software will use<br>a series of questions to guide<br>you to the right policy for<br>your business needs.</p>
+	     </div>
+	     
+	</div>
+	<div class="d-flex justify-content-center mt-5">
+		<a href="privacy.html" class="text-decoration-none">
+			<button class="btn btn-outline-info text-capitalize shadow">get started</button>
+		</a>
+	</div>
+</div>
+</div>
+                          
+                           <!-- footer-->
+<footer>
+	<div class="container-fluid  pb-4"style="background-image:linear-gradient(to left,#16a085,#3498db);margin-top: 120px; border-top: 5px solid #262626">
+		
+		<div class="container mt-3 mb-2 d-flex justify-content-center justify-content-md-start">
+			<h4 class="text-capitalize font-weight-bold text-dark scale">globotra
+			  <span class="text-danger ml-n1 text-lowercase">x</span>
+	        </h4>
+
+		</div>
+
+		<div class="container">
+			<div class="d-flex justify-content-center align-items-center flex-column flex-md-row justify-content-md-between">
+
+				<!-- social links-->
+
+				<div class="container pl-0 mb-3 mb-sm-0">
+					<div class="d-flex flex-column">
+						
+						<div class="d-flex justify-content-center
+						justify-content-md-start">
+						<h5 class="text-capitalize text-light mb-3">social links</h5>
+					   </div>
+
+					   <div class="ml-n2 mb-2 d-flex justify-content-md-start justify-content-around">
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/fb.png"></a>
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/twitter.png"></a>
+					   	
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/youtube.png"></a>
+					   	
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/mail.png"></a>
+					   	
+					   </div>
+
+					   <a href="#" class="text-decoration-none text-light text-capitalize  ml-1 text-md-left text-center">share your story</a>
+
+					</div>
+				</div>
+
+				<div class="scale container rounded shadow pt-2 pb-4 px-auto" style="border:2px solid #ffffff;background-color: #333333">
+					   	<div class="d-flex 
+					   	justify-content-between 
+					   	flex-wrap align-items-center ">
+					   		
+					   		<!-- contact us-->
+					   		<div class="d-flex flex-column">
+					   			
+					   			<h4 class="text-capitalize text-light pb-1 mb-3"> contact us 24/7</h4>
+					   			
+					   			<h6 class="text-capitalize text-light text-center mb-2">u.s &nbsp; <span class="text-info">800-7954661</span>
+					   			</h6>
+
+					   			<div class="d-flex justify-content-between text-light mt-2">
+					   				<a href="#">Email</a>
+					   				<a href="#">Contact Us</a>
+					   			</div>
+					   		</div>
+
+					   		<!-- stay in touch-->
+					   		<div class="d-flex flex-column mb-2">
+					   			
+					   			<h4 class="text-capitalize text-light mt-4 mb-3">stay in touch</h4>
+
+					   			<input type="Email" name="mail" class="form-control mb-2" placeholder="you@email.com">
+
+					   			<a class="text-decoration-none" href="signup.html">
+					   				<button class="w-100 btn btn-outline-info shadow text-capitalize">sign up</button>
+					   			</a>
+					   		</div>
+					   	</div>
+					   </div>
+
+				<div></div>
+			</div>
+		</div>
+
+ <!-- experience-->
+		<div class="container mt-4 d-flex justify-content-center justify-content-md-start">
+			<div class="d-flex flex-column w-25 justify-content-md-start justify-content-center">
+				<p class="text-light text-center text-md-left">Send us your experience</p>
+			
+			     <button class="btn btn-danger">Submit</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid pt-3 border border-danger border-bottom-0 border-left-0 border-right-0" style="background-color: #333333">
+		<div class="d-flex flex-column">
+			
+			<div class="d-flex justify-content-center ">
+				<p class="text-capitalize text-light"><span class="text-primary font-weight-bold">copyright &copy; </span> globotrax 2020 <a href="privacy.html" class="text-primary"> privacy policy </a> terms of use</p>
+			</div>
+			
+			<div class="d-flex justify-content-center mt-n2">
+				<p class=" text-light">Use of this site is subjected to express Terms and Conditions. By using this site, you signify that you agree to be bound by our terms and conditions and privacy policy.</p>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+<!--preloader script-->
+<script src="js/script.js"></script>
+</body>
+</html>

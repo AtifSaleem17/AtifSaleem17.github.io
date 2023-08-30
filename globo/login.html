@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>log in</title>
+	<link rel="shortcut icon" href="images/favicon1.png">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9ed5497c3b.js" crossorigin="anonymous"></script>
+
+    
+
+    <link rel="stylesheet" type="text/css" href="styling.css">
+
+</head>
+<body>
+
+<!--preloader-->
+
+<div class="preloader"></div>
+
+<header class="container-fluid   mt-3 px-0">
+                                <!-- globotrax-->
+
+	<div class="d-flex justify-content-center justify-content-md-between align-items-center flex-wrap px-3 pt-3 pb-md-4 ">
+
+    	<div class="d-flex flex-column align-items-center align-items-md-start">
+			<a href="index.php" class="text-decoration-none">
+			    <h3 class="display-4 text-capitalize font-weight-bold text-dark">globotra
+			  <span class="text-danger ml-n3 text-lowercase">x</span>
+		    </h3>
+			</a>
+		    <div class="text-info text-capitalize mt-n2 pl-1">securing and recovering your important items</div>
+		</div>
+
+		<div class="d-flex flex-column align-items-md-end align-items-center">
+
+		    				                               <!-- buttons-->
+
+
+
+			<div class="btn-group mb-md-2 mb-1 mt-md-0 mt-3">
+
+
+				<a href="login.html" class="text-decoration-none mr-1">
+			     <button class="btn btn-outline-info text-capitalize ">Login</button>
+		        </a>
+		        <a href="signup.html" class="text-decoration-none">
+			      <button class="btn btn-outline-info text-capitalize ">Sign Up</button>
+		         </a>
+
+
+
+			</div>
+
+			<div class="form-group  mt-1 mt-md-0 mb-md-n2 ">
+
+
+		                               <!-- select country-->
+
+				<div class="m-t-20">
+
+                                <form method="post">
+                                <select class="form-control" name="country">
+                                	<option  class="text-capitalize font-weight-bold">Select Country</option>
+									<option class="text-capitalize">pakistan</option>
+					                <option class="text-capitalize">india</option>
+					                <option class="text-capitalize">USA</option>
+					                <option class="text-capitalize">england</option>
+					                <option class="text-capitalize">france</option>
+									<option class="text-capitalize">italy</option>
+
+                                        </select>
+                                        </form>
+                            </div>
+			</div>
+		</div>
+	</div>
+
+
+
+</header>
+
+<!--nav-->
+<nav class="shadow d-flex sticky-top navbar navbar-expand-md bg-info navbar-light" >
+
+	<button class="navbar-toggler order-1 btn-outline-light" data-toggle="collapse" data-target="#navi">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse order-3 order-md-2 mt-2 mt-md-0 justify-content-center" id="navi">
+		<ul class="navbar-nav nav-tabs border-bottom-0" >
+
+		    <li class="nav-item text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="globoHome.html" class="nav-link text-capitalize font-weight-bold">home</a>
+		    </li>
+
+		    <li class="nav-item  text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="globosolution.html" class=" nav-link text-capitalize  font-weight-bold">solutions</a>
+		    </li>
+
+		    <li class=" nav-item text-center border-primary border border-left-0 border-right-0 border-top-0">
+		    	<a href="ourcompany.html" class="nav-link text-capitalize font-weight-bold">our company</a>
+		    </li>
+	    </ul>
+	</div>
+
+	 <!-- basket-->
+
+
+	                	 <div class="order-2 order-md-3  dropdown dropleft">
+
+	                 	<button class="basket-icon btn btn-outline-light" data-toggle="dropdown"><i class="fas fa-shopping-bag"
+	 		 	    style="font-size: 30px;"></i><span class="badge badge-warning border-cicle mt-2">0</span></button>
+
+	                 	<div class="dropdown-menu shadow border border-info">
+
+	                 		<div class="alert alert-info alert-dismissible">
+
+	                 			<button class="close " data-dismiss="alert">&times;</button>
+
+	                 			<div class="d-flex flex-wrap justify-content-center align-items-center">
+
+	                 				<img class="img-fluid h-25 w-25" src="images/product.png">
+
+	                 				<p class="text-info text-capitalize  mb-0">
+	                 					<strong class="text-dark">text item</strong> $30 </p>
+	                 			</div>
+	                 		</div>
+
+	                 		<div class="dropdown-divider"></div>
+
+	                 		<div class="dropdown-item d-flex justify-content-between">
+	                 			<h5 class="text-uppercase font-weight-bold mr-5" style="color: #333333">subtotal:</h5>
+	                 			<h5 class="text-uppercase ml-5" style="color: #333333">$0</h5>
+	                 		</div>
+
+	                 		<div class="dropdown-divider"></div>
+
+	                 		<div class="dropdown-item text-center">
+
+	                 			<a href="cart.html" class="text-decoration-none ">
+	                 				<button class="w-100 py-2 btn btn-outline-info text-capitalize">view cart
+	                 				</button>
+	                 			</a>
+	                 		</div>
+
+	                 		<div class="dropdown-item text-center">
+
+	                 			<a href="#" class="text-decoration-none">
+	                 				<button class="w-100 py-2 btn btn-outline-info text-capitalize">checkout
+	                 				</button>
+	                 			</a>
+	                 		</div>
+
+	                 	</div>
+	                 </div>
+</nav>
+
+ 
+ 	<!--login form-->
+
+<div class="container w-50 border border-primary px-0 my-5 rounded shadow">
+
+  <h3 class="text-capitalize bg-info text-light display-4 pb-3 mb-5 shadow mt-0 " style="text-align: center;">log in</h3>
+
+  <form class="needs-validation" novalidate="">
+    <div class="d-flex flex-column">
+<div class="d-flex align-items-center flex-column">    
+  
+    <div class="form-group w-50">     
+      <label for="ue" class="text-capitalize text-info font-weight-bold">email:</label>
+      <input type="email" class="form-control shadow" name="umail" id="ue" required="">
+      <div class="invalid-feedback">please fill out this field.</div>
+    </div>
+
+     <div class="form-group w-50 mt-3">
+      <label for="up"class="text-capitalize text-info font-weight-bold">password:</label>
+      <input type="password" class="form-control shadow" name="upass" id="up" required="">
+      <div class="invalid-feedback">please fill out this field.</div>
+    </div>
+
+</div>
+
+</div>
+<div class="d-flex justify-content-center">
+    <input type="submit" class="btn mx-5 my-5 btn-outline-info text-uppercase  font-weight-bold shadow" value="log in" name="">
+  </div>
+  </form>
+</div>
+ 
+		
+ 
+
+                          
+                           <!-- footer-->
+<footer>
+	<div class="container-fluid  pb-4"style="background-image:linear-gradient(to left,#16a085,#3498db);margin-top: 120px; border-top: 5px solid #262626">
+		
+		<div class="container mt-3 mb-2 d-flex justify-content-center justify-content-md-start">
+			<h4 class="text-capitalize font-weight-bold text-dark scale">globotra
+			  <span class="text-danger ml-n1 text-lowercase">x</span>
+	        </h4>
+
+		</div>
+
+		<div class="container">
+			<div class="d-flex justify-content-center align-items-center flex-column flex-md-row justify-content-md-between">
+
+				<!-- social links-->
+
+				<div class="container pl-0 mb-3 mb-sm-0">
+					<div class="d-flex flex-column">
+						
+						<div class="d-flex justify-content-center
+						justify-content-md-start">
+						<h5 class="text-capitalize text-light mb-3">social links</h5>
+					   </div>
+
+					   <div class="ml-n2 mb-2 d-flex justify-content-md-start justify-content-around">
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/fb.png"></a>
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/twitter.png"></a>
+					   	
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/youtube.png"></a>
+					   	
+
+					   	<a href="#" class="text-decoration-none"><img class="img-fluid scale1" src="images/mail.png"></a>
+					   	
+					   </div>
+
+					   <a href="#" class="text-decoration-none text-light text-capitalize  ml-1 text-md-left text-center">share your story</a>
+
+					</div>
+				</div>
+
+				<div class="scale container rounded shadow pt-2 pb-4 px-auto" style="border:2px solid #ffffff;background-color: #333333">
+					   	<div class="d-flex 
+					   	justify-content-between 
+					   	flex-wrap align-items-center ">
+					   		
+					   		<!-- contact us-->
+					   		<div class="d-flex flex-column">
+					   			
+					   			<h4 class="text-capitalize text-light pb-1 mb-3"> contact us 24/7</h4>
+					   			
+					   			<h6 class="text-capitalize text-light text-center mb-2">u.s &nbsp; <span class="text-info">800-7954661</span>
+					   			</h6>
+
+					   			<div class="d-flex justify-content-between text-light mt-2">
+					   				<a href="#">Email</a>
+					   				<a href="#">Contact Us</a>
+					   			</div>
+					   		</div>
+
+					   		<!-- stay in touch-->
+					   		<div class="d-flex flex-column mb-2">
+					   			
+					   			<h4 class="text-capitalize text-light mt-4 mb-3">stay in touch</h4>
+
+					   			<input type="Email" name="mail" class="form-control mb-2" placeholder="you@email.com">
+
+					   			<a class="text-decoration-none" href="signup.html">
+					   				<button class="w-100 btn btn-outline-info shadow text-capitalize">sign up</button>
+					   			</a>
+					   		</div>
+					   	</div>
+					   </div>
+
+				<div></div>
+			</div>
+		</div>
+
+ <!-- experience-->
+		<div class="container mt-4 d-flex justify-content-center justify-content-md-start">
+			<div class="d-flex flex-column w-25 justify-content-md-start justify-content-center">
+				<p class="text-light text-center text-md-left">Send us your experience</p>
+			
+			     <button class="btn btn-danger">Submit</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid pt-3 border border-danger border-bottom-0 border-left-0 border-right-0" style="background-color: #333333">
+		<div class="d-flex flex-column">
+			
+			<div class="d-flex justify-content-center ">
+				<p class="text-capitalize text-light"><span class="text-primary font-weight-bold">copyright &copy; </span> globotrax 2020 <a href="privacy.html" class="text-primary"> privacy policy </a> terms of use</p>
+			</div>
+			
+			<div class="d-flex justify-content-center mt-n2">
+				<p class=" text-light">Use of this site is subjected to express Terms and Conditions. By using this site, you signify that you agree to be bound by our terms and conditions and privacy policy.</p>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<!--preloader script-->
+<script src="js/script.js"></script>
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+</body>
+</html>
