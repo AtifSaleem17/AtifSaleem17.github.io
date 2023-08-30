@@ -1,0 +1,35 @@
+ .scale:hover{
+    		transition: 0.2s;
+    		transform: scale(1.04,1.04);
+    	}
+    	.scale1:hover{
+    		transition: 0.2s;
+    		transform: scale(1.06,1.06);
+    	}
+
+ .preloader{ 
+ 	position:fixed;
+ left:0px; top:0px; width:100%;
+  height:100%; z-index:999999; 
+  background-color:#ffffff;
+   background-position:center center;
+    background-repeat:no-repeat; 
+    background-image:url(preloader1.gif);
+}
+a.active{
+  
+  text-transform: uppercase!important;
+}
+.basket-icon{
+background:none !important;
+border:none !important;
+box-shadow:none !important;
+color:black !important;
+}
+.basket-icon:hover{
+color:white !important;
+}
+/*
+.btn-outline-info:hover{
+  box-shadow:0 0 10px #169BB0, 0 0 40px #169BB0,0 0 80px #169BB0!important;
+}*/
